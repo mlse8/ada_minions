@@ -1,0 +1,12 @@
+#kevin,
+#gallery{
+    background-color: #FFF;
+}
+#kevin .custom-shape-divider-top .shape-fill,
+#gallery .custom-shape-divider-top .shape-fill{
+    fill: rgb(255,204,1);
+}
+#kevin .container-minion h2,
+#gallery .container-minion h2{
+    color: rgb(255,204,1);
+}

@@ -1,0 +1,62 @@
+#stuart, 
+#bob{
+    background-color: rgb(255, 204, 1);
+}
+.video{
+    width: 16rem;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+    z-index: 1;
+}
+.video video{
+    width: 100%;
+}
+.custom-shape-divider-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top svg{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+.custom-shape-divider-top .shape-fill{
+    fill: #FFFFFF;
+}
+.container-minion{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.container-minion h2{
+    color: #FFF;
+    font-size: 3rem;
+}
+.container-minion p{
+    color: #252525;
+}
+.container-minion img{
+    width: 10rem;
+    align-self: center;
+}
+.btn_link{
+    width: 100%;
+    padding: .2rem;
+    background-color: #507393;
+    border-radius: 1rem;
+    text-align: center;
+    color: #FFF;
+}
+.btn_link:hover{
+    background-color: #014686;
+}

@@ -31,15 +31,3 @@
 .custom-shape-divider-top .shape-fill{
     fill: #FFFFFF;
 }
-
-.btn_link{
-    width: 100%;
-    padding: .2rem;
-    background-color: #507393;
-    border-radius: 1rem;
-    text-align: center;
-    color: #FFF;
-}
-.btn_link:hover{
-    background-color: #014686;
-}

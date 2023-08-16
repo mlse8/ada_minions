@@ -31,3 +31,48 @@
 .custom-shape-divider-top .shape-fill{
     fill: #FFFFFF;
 }
+.container-minion{
+    width: 80%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.container-minion h2{
+    color: #FFF;
+    font-size: 3rem;
+}
+.container-minion div a:first-of-type{
+    display: none;
+}
+.container-minion p{
+    color: #252525;
+}
+.container-minion img{
+    width: 10rem;
+}
+
+@media screen and (min-width:600px){
+    .container-minion{
+        width: 90%;
+        flex-direction: row;
+    }
+    .name-minion h2{
+        font-size: 4rem;
+    }
+    .name-minion{
+        padding-right: 1rem;
+    }
+    .container-minion .name-minion a:first-of-type{
+        display: block;
+        margin-top: 1.2rem;
+    }
+    .container-minion a{
+        font-size: 1.2rem;
+    }
+    .container-minion a:last-of-type{
+        display: none;
+    }
+}
+

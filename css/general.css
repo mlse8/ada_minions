@@ -23,25 +23,6 @@ h2,
     display: flex;
     justify-content: center;
 }
-.container-minion{
-    width: 80%;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-.container-minion h2{
-    color: #FFF;
-    font-size: 3rem;
-}
-.container-minion p{
-    color: #252525;
-}
-.container-minion img{
-    width: 10rem;
-    align-self: center;
-}
 .btn_link{
     width: 100%;
     padding: .2rem;

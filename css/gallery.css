@@ -1,14 +1,10 @@
 #gallery .container-minion{
-    /* height: auto; */
     max-width: 1200px;
-    /* margin-top: 100px; */
 }
 .gallery-container{
     display: flex;
     flex-wrap: wrap;
     gap: .8rem;
-    /* overflow-x: hidden;
-    overflow-y: scroll; */
 }
 .gallery-picture{
     min-width: 200px;
@@ -27,4 +23,11 @@
 #gallery .gallery-img:hover{
     transform: scale(1.2);
     filter: grayscale(0);
+}
+
+@media screen and (min-width:600px){
+    #gallery .container-minion{
+        width: 80%;
+        flex-direction: column;
+    }
 }

@@ -64,3 +64,16 @@
 .title p{
     color: #252525;
 }
+
+@media screen and (min-width:480px){
+    .container{
+        background-image: url('../assets/tres-minions-removebg-preview.png');
+    }
+    .title{
+        align-self: flex-start;
+        margin-top: 6rem;
+    }
+    .title h1{
+        font-size: 9.5rem;
+    }
+}

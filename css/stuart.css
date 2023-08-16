@@ -2,15 +2,17 @@
 #bob{
     background-color: rgb(255, 204, 1);
 }
+#stuart .container-minion{
+    margin-top: 33vmax;
+}
 .video{
-    width: 16rem;
+    height: 25vmax;
     position: absolute;
-    left: 2rem;
-    top: 1rem;
+    top: 2rem;
     z-index: 1;
 }
 .video video{
-    width: 100%;
+    height: 100%;
 }
 .custom-shape-divider-top{
     position: absolute;
@@ -29,26 +31,7 @@
 .custom-shape-divider-top .shape-fill{
     fill: #FFFFFF;
 }
-.container-minion{
-    width: 80%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.container-minion h2{
-    color: #FFF;
-    font-size: 3rem;
-}
-.container-minion p{
-    color: #252525;
-}
-.container-minion img{
-    width: 10rem;
-    align-self: center;
-}
+
 .btn_link{
     width: 100%;
     padding: .2rem;

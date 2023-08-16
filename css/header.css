@@ -1,4 +1,5 @@
 .container{
+    height: 100vh;
     background-image: url('../assets/tres-minions-removebg-preview2.png');
     background-repeat: no-repeat;
     background-position: bottom;

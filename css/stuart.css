@@ -58,7 +58,7 @@
         width: 90%;
         flex-direction: row;
     }
-    .name-minion h2{
+    .container-minion h2{
         font-size: 4rem;
     }
     .name-minion{

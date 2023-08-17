@@ -43,14 +43,18 @@
     color: #FFF;
     font-size: 3rem;
 }
-.container-minion div a:first-of-type{
+.container-minion .name-minion a:first-of-type{
     display: none;
 }
 .container-minion p{
     color: #252525;
 }
-.container-minion img{
+.img-minion{
     width: 10rem;
+}
+.img-minion img{
+    width: 100%;
+    object-fit: cover;
 }
 
 @media screen and (min-width:600px){
@@ -74,5 +78,8 @@
     .container-minion a:last-of-type{
         display: none;
     }
+    .img-minion{
+        min-width: 12rem;
+    } 
 }
 

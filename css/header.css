@@ -38,7 +38,6 @@
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: .5rem;
     position: absolute;
     top: 3rem;
     right: 0;
@@ -65,7 +64,6 @@
 .title p{
     color: #252525;
 }
-
 @media screen and (min-width:480px){
     .container{
         background-image: url('../assets/tres-minions-removebg-preview.png');
@@ -73,7 +71,7 @@
     }
     .title{
         align-self: flex-start;
-        margin-top: 6rem;
+        margin-top: 15vmin;
     }
     .title h1{
         font-size: 9.5rem;
@@ -101,5 +99,10 @@
     }
     .menu a:hover{
         border-bottom: 2px solid #507393;
+    }
+}
+@media screen and (min-width:1024px){
+    .title h1{
+        font-size: 10rem;
     }
 }

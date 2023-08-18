@@ -71,15 +71,22 @@
     .container-minion .name-minion a:first-of-type{
         display: block;
         margin-top: 1.2rem;
-    }
-    .container-minion a{
-        font-size: 1.2rem;
-    }
+    } 
     .container-minion a:last-of-type{
         display: none;
     }
     .img-minion{
         min-width: 12rem;
     } 
+}
+@media screen and (min-width:768px) {
+    .container-minion p{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width:1024px){
+    .container-minion p{
+        padding: 0 5rem;
+    }
 }
 

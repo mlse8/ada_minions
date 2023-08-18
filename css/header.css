@@ -34,14 +34,6 @@
     background-image: url('../assets/menu.png');
     background-size: cover;
 }
-.menu-container:hover .menu{
-    display: flex;
-    width: 100%;
-    height: calc(100vh - 3rem);
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #252525bb;
-}
 .menu{
     font-size: 1.5rem;
     display: flex;
@@ -51,6 +43,14 @@
     top: 3rem;
     right: 0;
     display: none;
+}
+.menu-container:hover .menu{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 3rem);
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #252525bb;
 }
 .menu a:hover{
     border-bottom: 2px solid #FFF;
@@ -80,5 +80,26 @@
     }
     .title p{
         font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:768px){
+    .btn{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        text-shadow: -1px 2px 4px #252525;
+        position: static;
+    }
+    .menu-container:hover .menu{
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+    }
+    .menu a:hover{
+        border-bottom: 2px solid #507393;
     }
 }
